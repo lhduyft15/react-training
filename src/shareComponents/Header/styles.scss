@@ -1,0 +1,19 @@
+.header-container {
+    height: 60px;
+    background-color: white;
+
+    .header {
+        width: 840px;
+
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+        background-color: rgb(255, 255, 255);
+
+        &-logo {
+            width: 60px;
+            height: 60px;
+            vertical-align: middle;
+        }
+    }
+}
