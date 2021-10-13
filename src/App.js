@@ -12,6 +12,16 @@ function App() {
     return (
         <>
             <Header />
+            <div className="searchContent">
+                <p>Normal</p>
+                <input type="search" id="gsearch" name="gsearch" />
+                <br />
+                <br />
+                <p>Fixed</p>
+                <form action=".">
+                    <input type="search" />
+                </form>
+            </div>
             <div className="container">
                 <div className="form-section">
                     <Form initialValues={initialValues} />
