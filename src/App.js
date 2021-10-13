@@ -21,7 +21,7 @@ function App() {
                 <br />
                 <br />
                 <p>Fixed</p>
-                <form action=".">
+                <form action="#">
                     <img
                         src={logo}
                         alt="logo"
