@@ -17,7 +17,9 @@ function App() {
             <Header />
             <div className="searchContent">
                 <p>Normal</p>
-                <input type="search" id="gsearch" name="gsearch" />
+                <form action="">
+                    <input type="search" id="gsearch" name="gsearch" />
+                </form>
                 <br />
                 <br />
                 <p>Fixed</p>
